@@ -29,10 +29,19 @@ app.post('/instance', async (req, res) => {
 
   for (let i=0; i< instances.length; i++) {
     if (instances[i].component === component) {
-      instances[i].component = component;
-      instances[i].host = publicIp;
-      instances[i].isConnected = true;
-      break;
+      let recordExists = false;
+      for (let j=0; j < instances.length; j++) {
+        if (instances[i].host === publicIp) {
+          recordExists = true;
+        }
+      }
+
+      if (!recordExists) {
+        instances[i].component = component;
+        instances[i].host = publicIp;
+        instances[i].isConnected = true;
+        break;
+      }
     }
   }
 

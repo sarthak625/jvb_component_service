@@ -1,0 +1,57 @@
+[
+  {
+    "host": "localhost",
+    "component": "focus.meet.jitsi",
+    "isConnected": true
+  },
+  {
+    "host": null,
+    "component": "focus1.meet.jitsi",
+    "isConnected": false
+  },
+  {
+    "host": null,
+    "component": "focus2.meet.jitsi",
+    "isConnected": false
+  },
+  {
+    "host": null,
+    "component": "focus3.meet.jitsi",
+    "isConnected": false
+  },
+  {
+    "host": null,
+    "component": "focus4.meet.jitsi",
+    "isConnected": false
+  },
+  {
+    "host": null,
+    "component": "focus5.meet.jitsi",
+    "isConnected": false
+  },
+  {
+    "host": null,
+    "component": "focus6.meet.jitsi",
+    "isConnected": false
+  },
+  {
+    "host": null,
+    "component": "focus7.meet.jitsi",
+    "isConnected": false
+  },
+  {
+    "host": null,
+    "component": "focus8.meet.jitsi",
+    "isConnected": false
+  },
+  {
+    "host": null,
+    "component": "focus9.meet.jitsi",
+    "isConnected": false
+  },
+  {
+    "host": null,
+    "component": "focus10.meet.jitsi",
+    "isConnected": false
+  }
+]
